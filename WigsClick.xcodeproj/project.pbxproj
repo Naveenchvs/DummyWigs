@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846DB79E1FB453ED00549CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DB79D1FB453ED00549CAF /* AppDelegate.swift */; };
+		846DB7A01FB453ED00549CAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DB79F1FB453ED00549CAF /* ViewController.swift */; };
+		846DB7A31FB453ED00549CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846DB7A11FB453ED00549CAF /* Main.storyboard */; };
+		846DB7A51FB453ED00549CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846DB7A41FB453ED00549CAF /* Assets.xcassets */; };
+		846DB7A81FB453ED00549CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846DB7A61FB453ED00549CAF /* LaunchScreen.storyboard */; };
+		846DB7B31FB453ED00549CAF /* WigsClickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DB7B21FB453ED00549CAF /* WigsClickTests.swift */; };
+		846DB7BE1FB453ED00549CAF /* WigsClickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DB7BD1FB453ED00549CAF /* WigsClickUITests.swift */; };
+		846DB7CC1FB48CDE00549CAF /* PhotoFinalizedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DB7CB1FB48CDE00549CAF /* PhotoFinalizedVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846DB7AF1FB453ED00549CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846DB7921FB453EC00549CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846DB7991FB453EC00549CAF;
+			remoteInfo = WigsClick;
+		};
+		846DB7BA1FB453ED00549CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846DB7921FB453EC00549CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846DB7991FB453EC00549CAF;
+			remoteInfo = WigsClick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846DB79A1FB453EC00549CAF /* WigsClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WigsClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846DB79D1FB453ED00549CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846DB79F1FB453ED00549CAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		846DB7A21FB453ED00549CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846DB7A41FB453ED00549CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846DB7A71FB453ED00549CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846DB7A91FB453ED00549CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846DB7AE1FB453ED00549CAF /* WigsClickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WigsClickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846DB7B21FB453ED00549CAF /* WigsClickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WigsClickTests.swift; sourceTree = "<group>"; };
+		846DB7B41FB453ED00549CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846DB7B91FB453ED00549CAF /* WigsClickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WigsClickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846DB7BD1FB453ED00549CAF /* WigsClickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WigsClickUITests.swift; sourceTree = "<group>"; };
+		846DB7BF1FB453ED00549CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846DB7CB1FB48CDE00549CAF /* PhotoFinalizedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoFinalizedVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846DB7971FB453EC00549CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846DB7AB1FB453ED00549CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846DB7B61FB453ED00549CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846DB7911FB453EC00549CAF = {
+			isa = PBXGroup;
+			children = (
+				846DB79C1FB453EC00549CAF /* WigsClick */,
+				846DB7B11FB453ED00549CAF /* WigsClickTests */,
+				846DB7BC1FB453ED00549CAF /* WigsClickUITests */,
+				846DB79B1FB453EC00549CAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846DB79B1FB453EC00549CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846DB79A1FB453EC00549CAF /* WigsClick.app */,
+				846DB7AE1FB453ED00549CAF /* WigsClickTests.xctest */,
+				846DB7B91FB453ED00549CAF /* WigsClickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846DB79C1FB453EC00549CAF /* WigsClick */ = {
+			isa = PBXGroup;
+			children = (
+				846DB79D1FB453ED00549CAF /* AppDelegate.swift */,
+				846DB79F1FB453ED00549CAF /* ViewController.swift */,
+				846DB7CB1FB48CDE00549CAF /* PhotoFinalizedVC.swift */,
+				846DB7A11FB453ED00549CAF /* Main.storyboard */,
+				846DB7A41FB453ED00549CAF /* Assets.xcassets */,
+				846DB7A61FB453ED00549CAF /* LaunchScreen.storyboard */,
+				846DB7A91FB453ED00549CAF /* Info.plist */,
+			);
+			path = WigsClick;
+			sourceTree = "<group>";
+		};
+		846DB7B11FB453ED00549CAF /* WigsClickTests */ = {
+			isa = PBXGroup;
+			children = (
+				846DB7B21FB453ED00549CAF /* WigsClickTests.swift */,
+				846DB7B41FB453ED00549CAF /* Info.plist */,
+			);
+			path = WigsClickTests;
+			sourceTree = "<group>";
+		};
+		846DB7BC1FB453ED00549CAF /* WigsClickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846DB7BD1FB453ED00549CAF /* WigsClickUITests.swift */,
+				846DB7BF1FB453ED00549CAF /* Info.plist */,
+			);
+			path = WigsClickUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846DB7991FB453EC00549CAF /* WigsClick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846DB7C21FB453ED00549CAF /* Build configuration list for PBXNativeTarget "WigsClick" */;
+			buildPhases = (
+				846DB7961FB453EC00549CAF /* Sources */,
+				846DB7971FB453EC00549CAF /* Frameworks */,
+				846DB7981FB453EC00549CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WigsClick;
+			productName = WigsClick;
+			productReference = 846DB79A1FB453EC00549CAF /* WigsClick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846DB7AD1FB453ED00549CAF /* WigsClickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846DB7C51FB453ED00549CAF /* Build configuration list for PBXNativeTarget "WigsClickTests" */;
+			buildPhases = (
+				846DB7AA1FB453ED00549CAF /* Sources */,
+				846DB7AB1FB453ED00549CAF /* Frameworks */,
+				846DB7AC1FB453ED00549CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846DB7B01FB453ED00549CAF /* PBXTargetDependency */,
+			);
+			name = WigsClickTests;
+			productName = WigsClickTests;
+			productReference = 846DB7AE1FB453ED00549CAF /* WigsClickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846DB7B81FB453ED00549CAF /* WigsClickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846DB7C81FB453ED00549CAF /* Build configuration list for PBXNativeTarget "WigsClickUITests" */;
+			buildPhases = (
+				846DB7B51FB453ED00549CAF /* Sources */,
+				846DB7B61FB453ED00549CAF /* Frameworks */,
+				846DB7B71FB453ED00549CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846DB7BB1FB453ED00549CAF /* PBXTargetDependency */,
+			);
+			name = WigsClickUITests;
+			productName = WigsClickUITests;
+			productReference = 846DB7B91FB453ED00549CAF /* WigsClickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846DB7921FB453EC00549CAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mobiware;
+				TargetAttributes = {
+					846DB7991FB453EC00549CAF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4Y3H98P2Q8;
+						ProvisioningStyle = Automatic;
+					};
+					846DB7AD1FB453ED00549CAF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4Y3H98P2Q8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 846DB7991FB453EC00549CAF;
+					};
+					846DB7B81FB453ED00549CAF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4Y3H98P2Q8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 846DB7991FB453EC00549CAF;
+					};
+				};
+			};
+			buildConfigurationList = 846DB7951FB453EC00549CAF /* Build configuration list for PBXProject "WigsClick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846DB7911FB453EC00549CAF;
+			productRefGroup = 846DB79B1FB453EC00549CAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846DB7991FB453EC00549CAF /* WigsClick */,
+				846DB7AD1FB453ED00549CAF /* WigsClickTests */,
+				846DB7B81FB453ED00549CAF /* WigsClickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846DB7981FB453EC00549CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846DB7A81FB453ED00549CAF /* LaunchScreen.storyboard in Resources */,
+				846DB7A51FB453ED00549CAF /* Assets.xcassets in Resources */,
+				846DB7A31FB453ED00549CAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846DB7AC1FB453ED00549CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846DB7B71FB453ED00549CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846DB7961FB453EC00549CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846DB7A01FB453ED00549CAF /* ViewController.swift in Sources */,
+				846DB79E1FB453ED00549CAF /* AppDelegate.swift in Sources */,
+				846DB7CC1FB48CDE00549CAF /* PhotoFinalizedVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846DB7AA1FB453ED00549CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846DB7B31FB453ED00549CAF /* WigsClickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846DB7B51FB453ED00549CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846DB7BE1FB453ED00549CAF /* WigsClickUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846DB7B01FB453ED00549CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846DB7991FB453EC00549CAF /* WigsClick */;
+			targetProxy = 846DB7AF1FB453ED00549CAF /* PBXContainerItemProxy */;
+		};
+		846DB7BB1FB453ED00549CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846DB7991FB453EC00549CAF /* WigsClick */;
+			targetProxy = 846DB7BA1FB453ED00549CAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846DB7A11FB453ED00549CAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846DB7A21FB453ED00549CAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846DB7A61FB453ED00549CAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846DB7A71FB453ED00549CAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846DB7C01FB453ED00549CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846DB7C11FB453ED00549CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846DB7C31FB453ED00549CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Y3H98P2Q8;
+				INFOPLIST_FILE = WigsClick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiware.WigsClick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		846DB7C41FB453ED00549CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Y3H98P2Q8;
+				INFOPLIST_FILE = WigsClick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiware.WigsClick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		846DB7C61FB453ED00549CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4Y3H98P2Q8;
+				INFOPLIST_FILE = WigsClickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiware.WigsClickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WigsClick.app/WigsClick";
+			};
+			name = Debug;
+		};
+		846DB7C71FB453ED00549CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4Y3H98P2Q8;
+				INFOPLIST_FILE = WigsClickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiware.WigsClickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WigsClick.app/WigsClick";
+			};
+			name = Release;
+		};
+		846DB7C91FB453ED00549CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4Y3H98P2Q8;
+				INFOPLIST_FILE = WigsClickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiware.WigsClickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WigsClick;
+			};
+			name = Debug;
+		};
+		846DB7CA1FB453ED00549CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4Y3H98P2Q8;
+				INFOPLIST_FILE = WigsClickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiware.WigsClickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WigsClick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846DB7951FB453EC00549CAF /* Build configuration list for PBXProject "WigsClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846DB7C01FB453ED00549CAF /* Debug */,
+				846DB7C11FB453ED00549CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846DB7C21FB453ED00549CAF /* Build configuration list for PBXNativeTarget "WigsClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846DB7C31FB453ED00549CAF /* Debug */,
+				846DB7C41FB453ED00549CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846DB7C51FB453ED00549CAF /* Build configuration list for PBXNativeTarget "WigsClickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846DB7C61FB453ED00549CAF /* Debug */,
+				846DB7C71FB453ED00549CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846DB7C81FB453ED00549CAF /* Build configuration list for PBXNativeTarget "WigsClickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846DB7C91FB453ED00549CAF /* Debug */,
+				846DB7CA1FB453ED00549CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846DB7921FB453EC00549CAF /* Project object */;
+}
